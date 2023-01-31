@@ -3,6 +3,7 @@ import numpy as np
 import seaborn as sns
 from matplotlib import pyplot as plt
 import matplotlib.font_manager
+import time
 
 # My functions:
 def binning(column,bins,threshold = None,decimals=None):
@@ -68,7 +69,7 @@ def binning(column,bins,threshold = None,decimals=None):
     return new_column, order
 
 
-def beautiful_graph(ax,title,xtitle,ytitle,format_='None',title_size=17,x_size=15,y_size=15,angle=0, name = None, label='right'):
+def beautiful_graph(ax,title,xtitle,ytitle,format_='None',title_size=18,x_size=15,y_size=15,angle=0, name = None, label='right'):
     sns.despine(bottom = True, left = True)
     if format_!= None:
         ax.bar_label(ax.containers[0], fmt=format_, padding=4)
@@ -78,13 +79,13 @@ def beautiful_graph(ax,title,xtitle,ytitle,format_='None',title_size=17,x_size=1
     else:
         plt.xticks([])
         ax.yaxis.set_ticks_position('none')
-    plt.title(title,fontsize = title_size, pad = 15, fontweight = 'bold')
+    plt.title(title,fontsize = title_size, pad = 15)
     plt.xlabel(xtitle,fontsize = x_size, labelpad = 10)
     plt.ylabel(ytitle,fontsize = y_size, labelpad = 10)
 
     plt.xticks(rotation = angle)
     if name != None:
-        plt.savefig('../figures/'+name+'.png', transparent=True)
+        plt.savefig('../figures/'+name+'.png', transparent=True, bbox_inches='tight', pad_inches=0)
     
     return
 
@@ -94,12 +95,12 @@ def beautiful_lineplot(ax, title, xtitle, ytitle, format_ = None, title_size = 1
     plt.legend(frameon=False)
     plt.tick_params(labelleft=True, left=True)
     plt.tick_params(labelbottom=True, bottom=True)
-    plt.title(title,fontsize = title_size, pad = 15, fontweight = 'bold')
+    plt.title(title,fontsize = title_size, pad = 15)
     plt.xlabel(xtitle,fontsize = x_size, labelpad = 10)
     plt.ylabel(ytitle,fontsize = y_size, labelpad = 10)
     if format_ != None:
         ax.yaxis.set_major_formatter(format_)
     if name != None:
-        plt.savefig('../figures/'+name+'.png', transparent=True)
+        plt.savefig('../figures/'+name+'.png', transparent=True ,bbox_inches='tight', pad_inches=0)
 
     return
