@@ -26,7 +26,7 @@ This project was developed using **Python** and several popular data processing 
 <a id='section3'></a>
 ## 3. Methods 
 
-The data for this project was obtained through **web scraping over 400,000 car listings**, including their prices and technical features. To improve performance, the "concurrent" library was used to compute functions in parallel, resulting in a speed increase of x10. The dataset was then cleaned to address missing and incorrectly-displayed values disguised as zeros in order to prevent misleading the model.
+The data for this project was obtained through **web scraping over 350,000 car listings**, including their prices and technical features. To improve performance, the "concurrent" library was used to compute functions in parallel, resulting in a speed increase of x10. The dataset was then cleaned to address missing and incorrectly-displayed values disguised as zeros in order to prevent misleading the model.
 
 After obtaining the data, it underwent a thorough **cleaning process**. Null and NaN values were removed as it is impossible for any of the features to have a zero value. Categorical features were also unified, such as merging locations by autonomous communities, or specific colors (like ocean blue) to basic ones (blue). Likewise, feature normalization was performed to improve the performance while training the models.
 
