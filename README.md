@@ -1,6 +1,6 @@
 # car-price-model
 
-<a href="https://fbgranell.com/projects/car-pricing/"><img src="./figures/header.png" style="border-radius:7px"></a>
+<a href="https://fbgranell.com/projects/car-price-model/"><img src="./figures/header.png" style="border-radius:7px"></a>
 ### Index:
 
 * [Introduction](#section1)
