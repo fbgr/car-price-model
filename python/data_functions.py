@@ -85,7 +85,7 @@ def beautiful_graph(ax,title,xtitle,ytitle,format_='None',title_size=18,x_size=1
 
     plt.xticks(rotation = angle)
     if name != None:
-        plt.savefig('../figures/'+name+'.png', transparent=True, bbox_inches='tight', pad_inches=0)
+        plt.savefig('../figures/'+name+'.png', transparent=True, bbox_inches='tight', pad_inches=0.2)
     
     return
 
@@ -101,6 +101,6 @@ def beautiful_lineplot(ax, title, xtitle, ytitle, format_ = None, title_size = 1
     if format_ != None:
         ax.yaxis.set_major_formatter(format_)
     if name != None:
-        plt.savefig('../figures/'+name+'.png', transparent=True ,bbox_inches='tight', pad_inches=0)
+        plt.savefig('../figures/'+name+'.png', transparent=True ,bbox_inches='tight', pad_inches=0.2)
 
     return
