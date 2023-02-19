@@ -1,6 +1,6 @@
 # car-price-model
 
-<a href="https://fbgranell.com/projects/car-price-model/"><img src="./figures/header.png" style="border-radius:7px"></a>
+<a href="https://fbgranell.com/projects/car-price-model/"><img src="./figures/header_rounded.png"></a>
 ### Index:
 
 * [Introduction](#section1)
@@ -39,22 +39,22 @@ Exploratory data analysis provides insights and understanding of the underlying 
 
 First I did an examination of the devaluation of cars over time. The mean price per age was visually represented in a bar plot, as we can see below:
 
-<img src="./figures/price-age.png" style="border-radius:7px">
+<img src="./figures/price-age_rounded.png">
 
 With the insights gained from the bar plot, we can delve into more complex inquiries. For instance, do different car brands experience the same rate of depreciation? Do some brands maintain their value for a longer duration? By aggregating the data, we can uncover the answers to these questions and present them in a line plot, showcasing the top 5 popular brands (although the same can be done for a larger number of brands). The resulting visualization is presented below:
 
-<img src="./figures/price-brand-age.png" style="border-radius:7px">
+<img src="./figures/price-brand-age_rounded.png">
 
 
 It is evident from the line plot that brands such as BMW tend to experience a faster rate of depreciation, particularly within the first four years. Specifically, a BMW loses more than 40% of its value from year one to year four, while brands like Audi, Volkswagen, and Mercedes may take up to six or eight years to incur the same relative decrease.
 
 If you are in the market for a pre-owned vehicle and prioritize cost savings over color preference, the following graph will be of interest to you. It compares the mean prices of cars across different color options, and it shows that choosing less popular options like beige can result in significant cost savings.
 
-<img src="./figures/price-color.png" style="border-radius:7px">
+<img src="./figures/price-color_rounded.png">
 
 To wrap up, I am plotting a final map displaying the regional car prices throughout the country. The prices are not uniform and one may save a significant amount of money by buying a car in a neighboring region. We can see that the provinces of Salamanca, Zamora, and Leon currently have the highest average car prices in Spain.
 
-<img src="./figures/map.png" style="border-radius:7px">
+<img src="./figures/map_rounded.png">
 
 <a id='section5'></a>
 ## 5. Results
