@@ -1,5 +1,5 @@
-# car-price-model
-<p align="left">
+# Predicting Used Cars Prices
+<p align="center">
   <img src="https://img.shields.io/github/license/fbgranell/car-price-model" alt="License" />
   <img src="https://img.shields.io/github/languages/top/fbgranell/car-price-model" alt="Language" />
   <img src="https://img.shields.io/github/contributors/fbgranell/car-price-model" alt="Contributors" />
