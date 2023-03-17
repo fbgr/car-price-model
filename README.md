@@ -1,6 +1,7 @@
 # Predicting Used Cars Prices
 
 <a href="https://fbgranell.com/projects/car-price-model/"><img src="./figures/header_rounded.png"></a>
+
 <p align="center">
   <img src="https://img.shields.io/github/license/fbgranell/car-price-model" alt="License" />
   <img src="https://img.shields.io/github/languages/top/fbgranell/car-price-model" alt="Language" />
@@ -16,7 +17,6 @@
 * [Results](#section5)
 * [References](#section6)
 * [License](#section7)
-
 
 <a id='section1'></a>
 ## 1. Introduction
