@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/github/contributors/fbgranell/car-price-model" alt="Contributors" />
 </p>
 
-##Index:
+## Index:
 
 * [Introduction](#section1)
 * [Materials](#section2)
