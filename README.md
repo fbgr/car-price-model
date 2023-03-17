@@ -1,5 +1,5 @@
 # car-price-model
-
+[![Fernando's GitHub stats](https://github-readme-stats.vercel.app/api?username=fbgranell)](https://github.com/fbgranell/github-readme-stats)
 <a href="https://fbgranell.com/projects/car-price-model/"><img src="./figures/header_rounded.png"></a>
 ### Index:
 
