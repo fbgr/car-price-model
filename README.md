@@ -3,9 +3,9 @@
 <a href="https://fbgranell.com/projects/car-price-model/"><img src="./figures/header_rounded.png"></a>
 
 <p align="center">
-  <img src="https://img.shields.io/github/license/fbgranell/car-price-model" alt="License" />
+  <!-- <img src="https://img.shields.io/github/license/fbgranell/car-price-model" alt="License" />
   <img src="https://img.shields.io/github/languages/top/fbgranell/car-price-model" alt="Language" />
-  <img src="https://img.shields.io/github/contributors/fbgranell/car-price-model" alt="Contributors" />
+  <img src="https://img.shields.io/github/contributors/fbgranell/car-price-model" alt="Contributors" />-->
 </p>
 
 ## Index:
